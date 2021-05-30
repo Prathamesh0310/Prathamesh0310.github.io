@@ -148,13 +148,29 @@ font-weight: bold;
    
   }
   .btn_container{
-    margin: 10 auto;
+    margin: 10px auto;
     width:50%;
     display: flex;
     justify-content: center;
-    margin-bottom:10px;
+    margin-bottom:20px;
   }
  
   .marquee:before, .marquee:after { width: 5rem; }
 } 
 
+@media screen and (max-width: 400px) {
+.btn{
+  height : 28px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid white;
+  
+  border-radius: 50px;
+  
+  background-color: black;
+  
+  font-size: 11px;
+  
+  font-weight: bold;
+  }
+}
