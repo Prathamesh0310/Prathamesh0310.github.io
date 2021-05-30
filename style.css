@@ -46,13 +46,14 @@
 .marquee_container{
   display: flex;
   flex-direction: column;
+  position:relative;
   
 }
 
 .marquee {
   width: var(--marquee-width);
   height: var(--marquee-height);
-  background-color:black;
+  background-color:white;
   overflow: hidden;
   position: relative;
   margin-bottom: 10px;
@@ -111,14 +112,17 @@
   /*height: 100%;*/
   padding-left: 10px;
   border-radius: 20px;
+  
+}
+.btn_container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px;
 }
 .btn{
 height : 42px;
 width: 150px;
-margin-top: 10px;
-
-justify-self: center;
-
 text-align: center;
 border: 1px solid white;
 font-family: gilroy-bold;
@@ -130,13 +134,16 @@ font-size: 17px;
 
 font-weight: bold;
 }
+.btn:hover{
+  filter:brightness(110%);
+}
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 540px) {
   html { font-size: 12px; }
   :root {
     --marquee-width: 100vw;
-    --marquee-height: 12vh;
-    --marquee-elements-displayed: 3;
+    --marquee-height: 15vh;
+    --marquee-elements-displayed: 2;
    
   }
   .marquee:before, .marquee:after { width: 5rem; }
