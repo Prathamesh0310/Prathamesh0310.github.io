@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
  
 
 
@@ -140,5 +140,5 @@ font-weight: bold;
    
   }
   .marquee:before, .marquee:after { width: 5rem; }
-}
+} 
 
