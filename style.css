@@ -148,7 +148,7 @@ font-weight: bold;
    
   }
   .btn_container{
-    margin: 0 auto;
+    margin: 10px auto;
     width:50%;
     display: flex;
     justify-content: center;
