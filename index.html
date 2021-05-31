@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style media="screen">
   .carousel{
@@ -16,6 +17,40 @@
   .carousel-cell {
     width: 70%;
     margin-right:10px;
+    position:relative;
+    text-align: center;
+    }
+    .text{
+      position: absolute;
+      bottom:16px;
+      left:12px;
+      color: white;
+      font-size: 25px;
+      font-style: calibri;
+    }
+    .watch_button{
+      position: absolute;
+      bottom:16px;
+      right:25px;
+      color: white;
+      font-size: 25px;
+      
+      background:#202020;
+      align-items: center;
+      padding: 5px 14px;
+      border-radius: 50px;
+      cursor: pointer;
+      padding-bottom: 8px;
+    }
+    .watch_text{
+      font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #fff;
+  margin: 0 8px;
+  text-decoration: none;
+  font-style: calibri;
+  
     }
 
     /* cell number */
@@ -26,6 +61,39 @@
     .carousel-cell img{
       border-radius: 10px;
     }
+    .carousel-cell img:hover{
+  filter:brightness(110%);
+ 
+  
+}
+@media screen and (max-width: 350px){
+  .text{
+      position: absolute;
+      bottom:8px;
+      left:6px;
+      
+      font-size: 8px;
+      
+    }
+    .watch_button{
+      display:none;
+      position: absolute;
+      bottom:4px;
+      right:5px;
+      align-items: center;
+      
+      border-radius: 50px;     
+      
+    }
+    .watch_text{
+      display:none;
+      font-size: 8px;     
+  line-height: 5px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  
+    }  
+}
   </style>
 
 <body>
@@ -35,107 +103,111 @@
     
       
       <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
-        <div class="carousel-cell">
-          <img class="w3-image" src="1.png">         
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="1.png"><div class="text"><b>Comedy</b>.Work out your Issues.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>         
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="2.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="2.png"><div class="text"><b>Documentary</b>.Mother Nature makes a Comeback.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="3.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="3.png"><div class="text"><b>Drama</b>.Following Your Passion.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="4.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="4.png"><div class="text"><b>Drama</b>.The News is only half the Story.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="5.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="5.png"><div class="text"><b>Comedy</b>.Losing record. Winning attitude.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="6.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="6.png"><div class="text"><b>Drama</b>.The Race continues.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="7.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="7.png"><div class="text"><b>Comedy</b>.Two can play this Game.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="8.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="8.png"><div class="text"><b>Drama</b>.There's a Darkness within us that lives on without us.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="9.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="9.png"><div class="text" style="color:black"><b>Documentary . A musical era.</b></div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="10.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="10.png"><div class="text"><b>Drama</b>.How far would you go.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="11.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="11.png"><div class="text"><b>Documentary</b>.A timeless documentary for self-realization.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>
-        <div class="carousel-cell">
-          <img class="w3-image" src="12.png">
+        <div class="carousel-cell" style="filter:brightness(90%)">
+          <img class="w3-image" src="12.png"><div class="text"><b>Comedy</b>.Messing up. Life together.</div><div class="watch_button"><a href="https://tv.apple.com/fi/show/home-before-dark/umc.cmc.5yqy2wv4w7l0v4x5mn3le8l1y?itscg=10000&itsct=atv-0-tv_ovp-carousel-apl-200528"class="watch_text">Watch now</a></div>
         </div>      
         </div>
     <div class="marquee_container">
         <div class="marquee">
           <ul class="marquee-content">
-            <li><img src="378x212 (1).jpg"></li>
-            <li><img src="378x212 (2).jpg"></li>
-            <li><img src="378x212 (3).jpg"></li>
-            <li><img src="378x212 (4).jpg"></li>
-            <li><img src="378x212 (5).jpg"></li>
-            <li><img src="378x212 (6).jpg"></li>
-            <li><img src="378x212 (7).jpg"></li>
-            <li><img src="378x212 (8).jpg"></li>
-            <li><img src="378x212 (9).jpg"></li>
-            <li><img src="378x212 (10).jpg"></li>
-            <li><img src="378x212 (11).jpg"></li>
-            <li><img src="378x212 (12).jpg"></li>
-            <li><img src="378x212 (13).jpg"></li>
-            <li><img src="378x212 (14).jpg"></li>
-            <li><img src="378x212 (15).jpg"></li>
-            <li><img src="378x212 (16).jpg"></li>
-            <li><img src="378x212 (17).jpg"></li>
-            <li><img src="378x212 (18).jpg"></li>
-            <li><img src="378x212 (19).jpg"></li>
-            <li><img src="378x212 (20).jpg"></li>
-            <li><img src="378x212 (21).jpg"></li>
-            <li><img src="378x212 (22).jpg"></li>
-            <li><img src="378x212 (23).jpg"></li>
-            <li><img src="378x212 (24).jpg"></li>
-            <li><img src="378x212 (25).jpg"></li>                     
+            <li><a href="#"><img src="378x212 (1).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (2).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (3).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (4).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (5).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (6).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (7).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (8).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (9).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (10).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (11).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (12).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (13).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (14).jpg"></a></li>
+            <li<a href="#">><img src="378x212 (15).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (16).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (17).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (18).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (19).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (20).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (21).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (22).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (23).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (24).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (25).jpg"></a></li>                     
           </ul>
         </div>
         <div class="marquee">
           <ul class="marquee-content">
-            <li><img src="378x212 (26).jpg"></li>
-            <li><img src="378x212 (27).jpg"></li>
-            <li><img src="378x212 (28).jpg"></li>
-            <li><img src="378x212 (29).jpg"></li>
-            <li><img src="378x212 (30).jpg"></li>
-            <li><img src="378x212 (31).jpg"></li>
-            <li><img src="378x212 (32).jpg"></li>
-            <li><img src="378x212 (33).jpg"></li>
-            <li><img src="378x212 (34).jpg"></li>
-            <li><img src="378x212 (35).jpg"></li>
-            <li><img src="378x212 (36).jpg"></li>
-            <li><img src="378x212 (37).jpg"></li>
-            <li><img src="378x212 (38).jpg"></li>
-            <li><img src="378x212 (39).jpg"></li>
-            <li><img src="378x212 (40).jpg"></li>
-            <li><img src="378x212 (41).jpg"></li>
-            <li><img src="378x212 (42).jpg"></li>
-            <li><img src="378x212 (43).jpg"></li>
-            <li><img src="378x212 (44).jpg"></li>
-            <li><img src="378x212 (45).jpg"></li>
-            <li><img src="378x212 (46).jpg"></li>
-            <li><img src="378x212 (47).jpg"></li>
-            <li><img src="378x212 (48).jpg"></li>
-            <li><img src="378x212 (49).jpg"></li>
-            <li><img src="378x212 (50).jpg"></li>        
+            <li><a href="#"><img src="378x212 (26).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (27).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (28).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (29).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (30).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (31).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (32).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (33).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (34).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (35).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (36).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (37).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (38).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (39).jpg"></a></li> 
+            <li><a href="#"><img src="378x212 (40).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (41).jpg"></a></li>
+            <li<a href="#">><img src="378x212 (42).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (43).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (44).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (45).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (46).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (47).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (48).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (49).jpg"></a></li>
+            <li><a href="#"><img src="378x212 (50).jpg"></a></li>
+                                
           </ul>
         </div>
       </div>
         <div class="btn_container">
-            <div><button class="btn">See full lineup></button></div>
-            <div><button class="pause_button"></button></div>
+            <div></div>
+            <div><a href="https://tv.apple.com/?itscg=10000&itsct=atv-0-tv_ovp-prc_full-apl-avl-200306"><button class="btn">See full lineup></button></a></div>
+       
+
         </div>
+
     </div>
   </section>
   <h1 class="w3-center" style="color:red"><b>Next Section</b></h1>
