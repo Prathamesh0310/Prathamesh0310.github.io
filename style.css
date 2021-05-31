@@ -154,7 +154,7 @@ font-weight: bold;
   .marquee:before, .marquee:after { width: 5rem; }
 } 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
 .btn{
   height : 28px;
   width: 100px;
