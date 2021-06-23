@@ -2,7 +2,7 @@ const assert = require('assert');
 const mongoose = require('mongoose');
 const Task = require('../models/task');
 
-//Describe Our tests
+//Describing Our tests
 describe('OPERATIONS', function(){
 
   beforeEach(function(done){
@@ -40,7 +40,7 @@ describe('OPERATIONS', function(){
   });
 
 
-  //Reading Records which have Completes === false
+  //Reading Records
   
   it('Reading Tasks', function(done){
     var t1 = new Task({
