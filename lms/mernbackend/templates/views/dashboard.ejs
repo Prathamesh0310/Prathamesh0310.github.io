@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <%for(let i of register){%>
+    <h2>Name:</h2> <h4><%=i.name%></h4>
+    <h2>UserName:</h2> <h4><%=i.username%></h4>
+    <h2>Email:</h2> <h4><%=i.email%></h4>
+    <h2>Phoneno:</h2> <h4><%=i.phoneno%></h4>
+    <h2>Gender:</h2> <h4><%=i.gender%></h4>
+    <%}%>
+  </div>
+</body>
+</html>
